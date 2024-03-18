@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <title>
+        Formulário de inscrição
+    </title>
+</head>
+
+<body>
+    <h1>Formulário de inscrição</h1>
+    <form action="">
+        <div>
+            <label for="name">Nome:</label><br>
+            <input type="text" id="name" name="Name" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="Email" required>
+        </div>
+        <br>
+        <div>
+            <label for="whats">Whatsapp:</label><br>
+            <input type="tel" id="whats" name="Whatsapp" maxlength="13" minlength="11" placeholder="(41)989838987"
+                required>
+        </div>
+        <br>
+        <div>
+            Área de Atuação <br>
+            <input type="radio" id="desenvolvimento" name="atuação" value="Desenvolvimento">
+            <label for="desenvolvimento">Desenvolvimento</label>
+
+            <input type="radio" id="Qa" name="atuação" value="Qa">
+            <label for="Qa">Quality Assurance (QA)</label>
+
+            <input type="radio" id="analise" name="atuação" value="Análise de dados">
+            <label for="analise">Análise da Dados</label>
+
+            <input type="radio" id="infraestrutura" name="atuação" value="Infraestrutura">
+            <label for="infraestrutura">Infraestrutura</label>
+        </div>
+        <br>
+        <div>
+            <label for="obs">Observações:</label><br>
+            <textarea name="obs" id="obs"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" id="notificação" name="notificação-email" value="Sim">
+            <label for="notificação">Desejo receber novidades e ofertas por email</label>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
