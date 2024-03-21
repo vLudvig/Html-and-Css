@@ -1,0 +1,21 @@
+/* não quebra a linha, largura minima, e aceita apenas margem e preenchimento horizontal. */
+.inline {
+  border: 1px #000 solid;
+  display: inline;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+/* Quebra a linha antes e depois, largura da página(máxima), aceita margem e preenchimento horizontal e vertical. */
+.block {
+  border: 1px #000 solid;
+  display: block;
+}
+/* não quebra linha e aceita margem e preenchido horizontal e vertical  */
+.inline-block {
+  border: 1px #000 solid;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
