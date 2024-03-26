@@ -1,0 +1,20 @@
+header {
+  text-align: center;
+  text-decoration: overline dashed;
+  text-transform: lowercase;
+}
+
+h1 {
+  font-family: monospace;
+}
+
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+
+span {
+  font-weight: bolder;
+}
