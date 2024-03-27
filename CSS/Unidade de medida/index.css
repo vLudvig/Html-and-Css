@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  height: 100px;
+}
+header {
+  background-color: #232323;
+  color: #fff;
+  padding: 10px;
+}
+.box {
+  font-size: 1rem;
+  border: solid 1px #232323;
+  display: inline-block;
+  margin-top: 20px;
+  width: 75px;
+}
+
+.px {
+  height: 10px;
+}
+
+/* root(raíz) element(tamaho padrão, geralmente 16px) -> 16px * 3 = 48px*/
+.rem {
+  font-size: 2rem;
+  height: 3rem;
+}
+/* multiplica o elemento de acordo com o elemento mais "próximo" */
+.em {
+  font-size: 2rem;
+  height: 2em;
+}
+
+.percent-33 {
+  height: 33%;
+}
+.percent-66 {
+  height: 66%;
+}
+.percent-100 {
+  height: 100%;
+}
+
+/* View height */
+.vh {
+  height: 30vh;
+}
+/* View wdth */
+.vw {
+  width: 50vw;
+}
