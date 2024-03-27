@@ -1,0 +1,33 @@
+* {
+  background-color: #777;
+}
+/* seletor :nth-child() */
+li:nth-child(3) {
+  color: purple;
+}
+li:nth-child(2n) {
+  color: #00f;
+}
+
+/* estados dos elementos */
+li:hover {
+  background-color: #777;
+}
+input:focus {
+  background-color: #f00;
+  color: white;
+}
+
+/* pseudo elementos->> ::befor e ::after */
+li::before {
+  content: "antes ->> ";
+}
+li::after {
+  content: " <<-- depois";
+}
+li:first-child {
+  color: #d8de21;
+}
+li:last-child {
+  color: #f00;
+}
